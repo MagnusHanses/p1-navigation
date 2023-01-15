@@ -33,6 +33,6 @@ I trained and tested the code on Ubuntu 22.04. To install all necessary dependen
 
 Follow the instructions in `Navigation.ipynb` to get started! 
 
-You can use the variable `train` in the first to cell to either train the agent with DQN or to evaluate agent using the checkpoint.pth.
+You can use the variable `train` in the first to cell to either train the agent with DQN or to evaluate the agent using the `checkpoint.pth`.
 
 
