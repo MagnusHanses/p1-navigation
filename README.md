@@ -10,10 +10,9 @@ In this project, as part of Udacity's Deep Reinforcement Learning Nanodegree, I 
 
 ![Trained Agent][image1]
 
-In this task, the agent's goal is to collect as many yellow bananas as possible while avoiding blue bananas. The agent is provided with a reward of +1 for collecting a yellow banana and a penalty of -1 for collecting a blue banana. The agent's actions are determined by its current state, which is represented by a 37-dimensional state space that includes the agent's velocity and sensory information about objects in its forward direction. The agent has four possible actions to choose from: moving forward, backward, turning left, or turning right. The task is episodic, and the agent must achieve an average score of +13 over 100 consecutive episodes to successfully solve the environment.
+The goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas. The agent is provided with a reward of +1 for collecting a yellow banana and a penalty of -1 for collecting a blue banana. The agent's actions are determined by its current state, which is represented by a 37-dimensional state space that includes the agent's velocity and sensory information about objects in its forward direction. The agent has four possible actions to choose from: moving forward, backward, turning left, or turning right. The task is episodic, and the agent must achieve an average score of +13 over 100 consecutive episodes to successfully solve the environment.
 
 I trained and tested the code on Ubuntu 22.04. To install all necessary dependencies, follow the instructions on https://github.com/udacity/Value-based-methods
-
 
 ### Getting Started
 
@@ -33,6 +32,6 @@ I trained and tested the code on Ubuntu 22.04. To install all necessary dependen
 
 Follow the instructions in `Navigation.ipynb` to get started! 
 
-You can use the variable train in the first to cell to either train the agent with DQN or to evaluate agent using the checkpoint.pth.
+You can use the variable `train` in the first to cell to either train the agent with DQN or to evaluate the agent using the stored weights in the `checkpoint.pth`.
 
 
